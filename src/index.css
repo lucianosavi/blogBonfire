@@ -1,0 +1,68 @@
+#root {
+ 
+ 
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+header{
+  margin: 0rem;   
+  background-color: #323232;
+  height: 55px;
+  border-radius: 0.6rem;
+  font-size: larger;
+  
+}
+body{
+  
+  background-color: #213547;
+  color: #919191;
+}
+button{
+ 
+  background-color: #213547;
+  color: #1a1a1a;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+button:hover{
+  opacity: 1;
+}
+.buttonPost{
+  
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid  ;
+  text-align: justify;
+  width: 80%;
+  height: auto;
+  background-color: #213547;
+  color: #f1f1f1;;
+  border-radius: 1rem;
+  border-style:none;
+  
+}
+
+.post{
+  
+  border-bottom: 1px solid #919191 ;
+  
+}
+
+.post h2::first-letter{
+  text-transform: uppercase;
+
+}
+.divPost{
+  color: #f1f1f1;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
